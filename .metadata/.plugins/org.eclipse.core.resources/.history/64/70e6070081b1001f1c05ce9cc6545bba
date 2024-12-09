@@ -1,0 +1,24 @@
+package date;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
+import java.util.Scanner;
+
+public class DataeHora {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		SimpleDateFormat sdf1 = new SimpleDateFormat("Date: dd/MM/yyyy" + "Hour: HH:mm:ss");
+		Date x1 = new Date();
+		
+		System.out.println(sdf1.format(x1) );
+		
+		sc.close();
+	}
+	
+	
+		
+}

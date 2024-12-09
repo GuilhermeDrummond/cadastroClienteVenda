@@ -1,0 +1,10 @@
+package enumerado;
+
+public enum Enumeracao {
+
+	PENDING_PAYMENT,
+	PROCESSING,
+	SHIPPED,
+	DEVILERED;
+
+} 
